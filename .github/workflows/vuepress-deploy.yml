@@ -1,42 +1,57 @@
-name: Deploy Vuepress
+name: docs
+
 on:
+  # 每当 push 到 main 分支时触发部署
   push:
-    branches:
-      - main
+    branches: [main]
+  # 手动触发部署
+  workflow_dispatch:
+
 jobs:
-  build-and-deploy:
+  docs:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+      - uses: actions/checkout@v2
         with:
+          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
-          persist-credentials: false
 
-      - name: Install and Build 🔧
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          # 选择要使用的 node 版本
+          node-version: '16.7.0'
+
+      # 缓存 node_modules
+      # - name: Cache dependencies
+      #   uses: actions/cache@v2
+      #   id: yarn-cache
+      #   with:
+      #     path: |
+      #       **/node_modules
+      #     key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-yarn-
+
+      # 如果缓存没有命中，安装依赖
+      - name: Install dependencies
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn --frozen-lockfile
+
+      # 运行构建脚本
+      - name: Build VuePress site
+        run: yarn docs:build
+
+      # 查看 workflow 的文档来获取更多信息
+      # @see https://github.com/crazy-max/ghaction-github-pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          # 部署到 gh-pages 分支
+          target_branch: gh-pages
+          # 部署目录为 VuePress 的默认输出目录
+          build_dir: docs/.vuepress/dist
         env:
-          TZ: Asia/Shanghai
-        run: |
-          export GOOGLE_GA=${{ secrets.GOOGLE_GA }} GOOGLE_SEARCH_CONSOLE=${{ secrets.GOOGLE_SEARCH_CONSOLE }}
-          git --no-pager log --oneline -n 20
-          yarn
-          yarn docs:build
-
-      - name: Deploy Github 🚀
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.PAGES_TOKEN }}
-          publish_dir: docs/.vuepress/dist
-          cname: xiaoyaaa.com
-          commit_message: ${{ github.event.head_commit.message }}
-
-      - name: Deploy Server 🚀
-        uses: burnett01/rsync-deployments@4.1
-        with:
-          switches: -avzr --delete
-          path: docs/.vuepress/dist/
-          remote_path: ${{ secrets.SERVER_TARGET }}
-          remote_host: ${{ secrets.SERVER_IP }}
-          remote_port: ${{ secrets.SERVER_PORT }}
-          remote_user: ${{ secrets.SSH_USERNAME }}
-          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
