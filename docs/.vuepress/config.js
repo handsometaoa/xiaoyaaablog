@@ -26,7 +26,7 @@ module.exports = {
     logo: '/hero.jpg',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
-    docsRepo: 'shanyuhai123/documents',
+    docsRepo: 'handsometaoa/xiaoyaaablog',
     editLinks: true,
     editLinkText: '编辑文档！',
     docsDir: 'docs',
