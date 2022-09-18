@@ -23,14 +23,14 @@ module.exports = {
   head: headConf,
   plugins: pluginConf,
   themeConfig: {
-    logo: '/hero.jpg',
+    logo: '/logo.jpg',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
     docsRepo: 'handsometaoa/xiaoyaaablog',
     editLinks: true,
-    editLinkText: '编辑文档！',
+    editLinkText: '编辑文档',
     docsDir: 'docs',
-    docsBranch: 'master',
+    docsBranch: 'main',
     navbar: navConf,
     sidebar: sidebarConf
   },
