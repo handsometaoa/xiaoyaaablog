@@ -4,10 +4,10 @@ module.exports = [
   {
     text: "基础",
     children: [
-      { text: "计算机组成原理", link: "/cornerstone/math/" },
-      { text: "数据结构", link: "/cornerstone/math/" },
-      { text: "操作系统", link: "/cornerstone/math/" },
-      { text: "计算机网络", link: "/cornerstone/math/" },
+      { text: "计算机组成原理", link: "/cornerstone/compositional/" },
+      { text: "数据结构", link: "/cornerstone/structure/" },
+      { text: "操作系统", link: "/cornerstone/operatingsystem/" },
+      { text: "计算机网络", link: "/cornerstone/network/" },
     ],
   },
   {
@@ -19,7 +19,7 @@ module.exports = [
   {
     text: "后端",
     children: [
-      { text: "Java基础", link: "/backend/nodejs/" },
+      { text: "Java基础", link: "/backend/basic/" },
     ],
   },
   { text: "算法", link: "/algorithms/" },
@@ -29,5 +29,11 @@ module.exports = [
       { text: "导航 🎉", link: "/more/navigation.html" },
     ],
   },
-  { text: "🚇 开往", link: "https://travellings.cn" },
+  {
+    text: "工具",
+    children: [
+      { text: "Github", link: "/tools/github/" },
+    ],
+  },
+  // { text: "🚇 开往", link: "https://travellings.cn" },
 ];
