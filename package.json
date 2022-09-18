@@ -1,7 +1,7 @@
 {
   "name": "documents",
   "version": "1.0.0",
-  "description": "shanyuhai123's docs web",
+  "description": "handsometaoa's docs web",
   "private": true,
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shanyuhai123/documents.git"
+    "url": "git+https://github.com/handsometaoa/xiaoyaaablog.git"
   },
-  "author": "shanyuhai123",
-  "license": "ISC",
+  "author": "handsometaoa",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shanyuhai123/documents/issues"
+    "url": "https://github.com/handsometaoa/xiaoyaaablog/issues"
   },
-  "homepage": "https://github.com/shanyuhai123/documents#readme",
+  "homepage": "https://github.com/handsometaoa/xiaoyaaablog#readme",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
     "@vuepress/plugin-medium-zoom": "^2.0.0-beta.27",
