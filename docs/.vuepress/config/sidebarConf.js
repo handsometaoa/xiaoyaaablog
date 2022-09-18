@@ -535,6 +535,7 @@ module.exports = {
         "README.md",
         "dns-resolve-github-pages.md",
         "download-huge-project-from-github.md",
+        "github-action.md",
         "how-to-deploy-private-gitlab.md",
         "switch-multiple-github-accounts.md",
         "sync-a-fork.md"
