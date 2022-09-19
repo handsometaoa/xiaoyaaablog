@@ -1846,7 +1846,7 @@
   "version" "10.4.0"
   dependencies:
     "browserslist" "^4.17.5"
-    "caniuse-lite" "^1.0.30001272"
+    "caniuse-lite" "^1.0.30001406"
     "fraction.js" "^4.1.1"
     "normalize-range" "^0.1.2"
     "picocolors" "^1.0.0"
@@ -2035,10 +2035,10 @@
     "pascal-case" "^3.1.2"
     "tslib" "^2.0.3"
 
-"caniuse-lite@^1.0.30001272", "caniuse-lite@^1.0.30001280":
-  "integrity" "sha512-YhF/hG6nqBEllymSIjLtR2iWDDnChvhnVJqp+vloyt2tEHFG1yBR+ac2B/rOw0qOK0m0lEXU2dv4E/sMk5P9Kg=="
-  "resolved" "https://registry.npmmirror.com/caniuse-lite/download/caniuse-lite-1.0.30001282.tgz?cache=0&sync_timestamp=1637135347968&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcaniuse-lite%2Fdownload%2Fcaniuse-lite-1.0.30001282.tgz"
-  "version" "1.0.30001282"
+"caniuse-lite@^1.0.30001280", "caniuse-lite@^1.0.30001406":
+  "integrity" "sha512-bWTlaXUy/rq0BBtYShc/jArYfBPjEV95euvZ8JVtO43oQExEN/WquoqpufFjNu4kSpi5cy5kMbNvzztWDfv1Jg=="
+  "resolved" "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001406.tgz"
+  "version" "1.0.30001406"
 
 "chalk@^2.0.0":
   "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="

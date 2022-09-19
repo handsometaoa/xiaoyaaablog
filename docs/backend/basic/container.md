@@ -1,6 +1,5 @@
 ---
 description: 测试
-autoPrev: image
 sidebarDepth: 1
 ---
 # JAVA基础

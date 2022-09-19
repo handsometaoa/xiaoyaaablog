@@ -20,6 +20,7 @@ module.exports = [
     text: "后端",
     children: [
       { text: "Java基础", link: "/backend/basic/" },
+      { text: "Spring基础", link: "/backend/spring/" },
     ],
   },
   { text: "算法", link: "/algorithms/" },

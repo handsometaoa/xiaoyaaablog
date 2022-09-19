@@ -3,10 +3,11 @@ module.exports = {
     {
       "text": "BASIC",
       "title": "BASIC",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
-        "README.md"
+        "README.md",
+        "container.md"
       ]
     }
   ],
@@ -14,7 +15,7 @@ module.exports = {
     {
       "text": "DOCKER",
       "title": "DOCKER",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -32,7 +33,7 @@ module.exports = {
     {
       "text": "GOLANG",
       "title": "GOLANG",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -43,7 +44,7 @@ module.exports = {
     {
       "text": "HTTP",
       "title": "HTTP",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -54,7 +55,7 @@ module.exports = {
     {
       "text": "MONGODB",
       "title": "MONGODB",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -65,7 +66,7 @@ module.exports = {
     {
       "text": "MYSQL",
       "title": "MYSQL",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -83,7 +84,7 @@ module.exports = {
     {
       "text": "NESTJS",
       "title": "NESTJS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -95,7 +96,7 @@ module.exports = {
     {
       "text": "NGINX",
       "title": "NGINX",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -119,7 +120,7 @@ module.exports = {
     {
       "text": "NODEJS",
       "title": "NODEJS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -133,7 +134,7 @@ module.exports = {
     {
       "text": "REDIS",
       "title": "REDIS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -144,7 +145,7 @@ module.exports = {
     {
       "text": "TRAEFIK",
       "title": "TRAEFIK",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -156,7 +157,7 @@ module.exports = {
     {
       "text": "COMPOSITIONAL",
       "title": "COMPOSITIONAL",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -167,7 +168,7 @@ module.exports = {
     {
       "text": "MATH",
       "title": "MATH",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -178,7 +179,7 @@ module.exports = {
     {
       "text": "NETWORK",
       "title": "NETWORK",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -189,7 +190,7 @@ module.exports = {
     {
       "text": "OPERATINGSYSTEM",
       "title": "OPERATINGSYSTEM",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -200,7 +201,7 @@ module.exports = {
     {
       "text": "STRUCTURE",
       "title": "STRUCTURE",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -211,7 +212,7 @@ module.exports = {
     {
       "text": "PIXEL",
       "title": "PIXEL",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -223,7 +224,7 @@ module.exports = {
     {
       "text": "CANVAS",
       "title": "CANVAS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -235,7 +236,7 @@ module.exports = {
     {
       "text": "CSS",
       "title": "CSS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -248,7 +249,7 @@ module.exports = {
     {
       "text": "D3JS",
       "title": "D3JS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -259,7 +260,7 @@ module.exports = {
     {
       "text": "FLUTTER",
       "title": "FLUTTER",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -270,7 +271,7 @@ module.exports = {
     {
       "text": "JAVASCRIPT",
       "title": "JAVASCRIPT",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -301,7 +302,7 @@ module.exports = {
     {
       "text": "JEST",
       "title": "JEST",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -312,7 +313,7 @@ module.exports = {
     {
       "text": "NUXTJS",
       "title": "NUXTJS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -323,7 +324,7 @@ module.exports = {
     {
       "text": "TYPESCRIPT",
       "title": "TYPESCRIPT",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -339,7 +340,7 @@ module.exports = {
     {
       "text": "UTILS",
       "title": "UTILS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -359,7 +360,7 @@ module.exports = {
     {
       "text": "VITE",
       "title": "VITE",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -370,7 +371,7 @@ module.exports = {
     {
       "text": "VUE",
       "title": "VUE",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -383,7 +384,7 @@ module.exports = {
     {
       "text": "WEAPP",
       "title": "WEAPP",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -394,7 +395,7 @@ module.exports = {
     {
       "text": "WEB",
       "title": "WEB",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -408,7 +409,7 @@ module.exports = {
     {
       "text": "WEBPACK",
       "title": "WEBPACK",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -421,7 +422,7 @@ module.exports = {
     {
       "text": "ARCH",
       "title": "ARCH",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -435,7 +436,7 @@ module.exports = {
     {
       "text": "CENTOS",
       "title": "CENTOS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -449,7 +450,7 @@ module.exports = {
     {
       "text": "KUBERNETES",
       "title": "KUBERNETES",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -464,7 +465,7 @@ module.exports = {
     {
       "text": "LINUX",
       "title": "LINUX",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -502,7 +503,7 @@ module.exports = {
     {
       "text": "MANJARO",
       "title": "MANJARO",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -528,7 +529,7 @@ module.exports = {
     {
       "text": "UBUNTU",
       "title": "UBUNTU",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -546,7 +547,7 @@ module.exports = {
     {
       "text": "BOOKMARK-SCRIPTS",
       "title": "BOOKMARK-SCRIPTS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md"
@@ -557,7 +558,7 @@ module.exports = {
     {
       "text": "CHROME",
       "title": "CHROME",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -569,7 +570,7 @@ module.exports = {
     {
       "text": "GIT",
       "title": "GIT",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -584,7 +585,7 @@ module.exports = {
     {
       "text": "GITHUB",
       "title": "GITHUB",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -601,7 +602,7 @@ module.exports = {
     {
       "text": "GOOGLE",
       "title": "GOOGLE",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -613,7 +614,7 @@ module.exports = {
     {
       "text": "VSCODE",
       "title": "VSCODE",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -633,11 +634,11 @@ module.exports = {
     {
       "text": "ALGORITHMS",
       "title": "ALGORITHMS",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
-        "1-Reverse-Linked-List.md",
+        "1-Reverse-Linked-List.md"
       ]
     }
   ],
@@ -645,7 +646,7 @@ module.exports = {
     {
       "text": "COMPUTER",
       "title": "COMPUTER",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "README.md",
@@ -661,7 +662,7 @@ module.exports = {
     {
       "text": "更多🎉",
       "title": "更多🎉",
-      "collapsable": false,
+      "collapsable": true,
       "sidebarDepth": 1,
       "children": [
         "navigation.md"

@@ -26,6 +26,9 @@ module.exports = [
       output: {
         filename: "config/sidebarConf",
       },
+      collapse: {
+        open: true
+      },
       title: {
         mode: "uppercase",
         map: {
