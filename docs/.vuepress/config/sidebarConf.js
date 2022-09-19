@@ -1,4 +1,15 @@
 module.exports = {
+  "/backend/basic/": [
+    {
+      "text": "BASIC",
+      "title": "BASIC",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md"
+      ]
+    }
+  ],
   "/backend/docker/": [
     {
       "text": "DOCKER",
@@ -141,10 +152,54 @@ module.exports = {
       ]
     }
   ],
+  "/cornerstone/compositional/": [
+    {
+      "text": "COMPOSITIONAL",
+      "title": "COMPOSITIONAL",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md"
+      ]
+    }
+  ],
   "/cornerstone/math/": [
     {
       "text": "MATH",
       "title": "MATH",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md"
+      ]
+    }
+  ],
+  "/cornerstone/network/": [
+    {
+      "text": "NETWORK",
+      "title": "NETWORK",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md"
+      ]
+    }
+  ],
+  "/cornerstone/operatingsystem/": [
+    {
+      "text": "OPERATINGSYSTEM",
+      "title": "OPERATINGSYSTEM",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md"
+      ]
+    }
+  ],
+  "/cornerstone/structure/": [
+    {
+      "text": "STRUCTURE",
+      "title": "STRUCTURE",
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [

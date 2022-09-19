@@ -2,21 +2,19 @@
 autoSort: -1
 ---
 
-# 反转链表
-::: tip 题目来源
+# 206. 反转链表
+::: tip 题目来源:
 https://leetcode.cn/problems/reverse-linked-list/
 :::
 
 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
-  
-![](.\assets\1\rev1ex1.jpg)  
 
+![](./assets/1/rev1ex1.jpg)  
 > 输入：head = [1,2,3,4,5]  
 输出：[5,4,3,2,1]
 
-
-![](.\assets\1\rev1answ2.png)
 ## 迭代法
+![](./assets/1/rev1answ2.png)
 ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
@@ -33,12 +31,10 @@ class Solution {
     }
 }
 ```
-![](.\assets\1\rev1answ1.png)
+
+
 ## 递归法
-
-```
-
-##
+![](./assets/1/rev1answ1.png)
 ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
