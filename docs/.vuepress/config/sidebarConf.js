@@ -130,6 +130,18 @@ module.exports = {
       ]
     }
   ],
+  "/backend/postgres/": [
+    {
+      "text": "POSTGRES",
+      "title": "POSTGRES",
+      "collapsable": true,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md",
+        "1-docker-install-postgres.md"
+      ]
+    }
+  ],
   "/backend/redis/": [
     {
       "text": "REDIS",
@@ -148,7 +160,8 @@ module.exports = {
       "collapsable": true,
       "sidebarDepth": 1,
       "children": [
-        "README.md"
+        "README.md",
+        "jieshao.md"
       ]
     }
   ],
