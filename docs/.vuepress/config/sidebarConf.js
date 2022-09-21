@@ -29,6 +29,18 @@ module.exports = {
       ]
     }
   ],
+  "/backend/es/": [
+    {
+      "text": "ES",
+      "title": "ES",
+      "collapsable": true,
+      "sidebarDepth": 1,
+      "children": [
+        "README.md",
+        "1-spring-es.md"
+      ]
+    }
+  ],
   "/backend/golang/": [
     {
       "text": "GOLANG",
