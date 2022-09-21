@@ -1,0 +1,1 @@
+const t={key:"v-346dc1d8",path:"/tools/github/github-action.html",title:"Github Actions \u81EA\u52A8\u90E8\u7F72\u535A\u5BA2",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"tools/github/github-action.md",git:{updatedTime:1663519589e3,contributors:[{name:"handsometaoa",email:"1527153028@qq.com",commits:1}]}};export{t as data};
