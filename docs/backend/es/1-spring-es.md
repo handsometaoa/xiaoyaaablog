@@ -35,7 +35,7 @@ public class User {
 
 ```
 
-![image-20220921205802143](assets/image-20220921205802143.png)
+![image-20220921205802143](./assets/image-20220921205802143.png)
 
 2. 创建UserMapper接口：
 
@@ -47,19 +47,19 @@ public interface UserMapper extends ElasticsearchRepository<User, String> {
 
 
 
-![image-20220921210107804](assets/image-20220921210107804.png)
+![image-20220921210107804](./assets/image-20220921210107804.png)
 
 ## 4.进行测试
 
 1. 增
 
-   ![image-20220921210451614](assets/image-20220921210451614.png)
+   ![image-20220921210451614](./assets/image-20220921210451614.png)
 
 2. 删
 
-   ![image-20220921210707839](assets/image-20220921210707839.png)
+   ![image-20220921210707839](./assets/image-20220921210707839.png)
 
-   ![image-20220921210839823](assets/image-20220921210839823.png)
+   ![image-20220921210839823](./assets/image-20220921210839823.png)
 
    
 
@@ -81,6 +81,6 @@ public interface UserMapper extends ElasticsearchRepository<User, String> {
    
    ```
 
-   ![image-20220921212426560](assets/image-20220921212426560.png)
-   ![image-20220921212445549](assets/image-20220921212445549.png)
+   ![image-20220921212426560](./assets/image-20220921212426560.png)
+   ![image-20220921212445549](./assets/image-20220921212445549.png)
 
