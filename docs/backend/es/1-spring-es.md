@@ -2,19 +2,19 @@
 
 ## 1. 首先创建一个SpringBoot项目
 
-![image-20220921200914965](assets/image-20220921200914965.png)
+![image-20220921200914965](./assets/image-20220921200914965.png)
 
 点击Next
 
-![image-20220921201208845](assets/image-20220921201208845.png)
+![image-20220921201208845](./assets/image-20220921201208845.png)
 
 点击Finsh，完成项目创建。
 
-![image-20220921201412224](assets/image-20220921201412224.png)
+![image-20220921201412224](./assets/image-20220921201412224.png)
 
 ## 2. 修改Yaml 配置文件
 
-![image-20220921205458058](assets/image-20220921205458058.png)
+![image-20220921205458058](./assets/image-20220921205458058.png)
 
 ## 3.创建User类与UserMapper接口
 
