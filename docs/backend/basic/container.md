@@ -2,6 +2,7 @@
 description: 测试
 sidebarDepth: 1
 ---
+
 # JAVA基础
 
 ## 1.面向对象三大特征
@@ -121,7 +122,7 @@ String 底层数组被修饰为final。
 上层代码定义规范，下层代码实现逻辑
 接口：更注重对行为的一种规范，比如小王会跳舞，但是小刘不会，那我们可以给小王实现一个跳舞接口。
 
-``` java
+```java
 abstract class Father {
 
     void show() {
@@ -133,7 +134,8 @@ abstract class Father {
 
     abstract void show22();
 }
-````
+```
+
 Spring源码中大量应用。
 
 ## 7.异常
