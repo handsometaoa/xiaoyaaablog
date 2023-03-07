@@ -161,7 +161,8 @@ module.exports = {
       "collapsable": true,
       "sidebarDepth": 1,
       "children": [
-        "README.md"
+        "README.md",
+        "Redis.md"
       ]
     }
   ],
@@ -411,8 +412,8 @@ module.exports = {
       "sidebarDepth": 1,
       "children": [
         "README.md",
-        "ref-type.md",
-        "the-next-tick.md"
+        "1-快速入门.md",
+        "2-组件化开发.md"
       ]
     }
   ],
