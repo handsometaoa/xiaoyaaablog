@@ -32,5 +32,6 @@
     "dotenv": "^10.0.0",
     "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.4"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "rules": {"vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]}
 }

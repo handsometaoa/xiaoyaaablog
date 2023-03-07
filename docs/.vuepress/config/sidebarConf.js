@@ -404,19 +404,6 @@ module.exports = {
       ]
     }
   ],
-  "/frontend/vue/": [
-    {
-      "text": "VUE",
-      "title": "VUE",
-      "collapsable": true,
-      "sidebarDepth": 1,
-      "children": [
-        "README.md",
-        "1-快速入门.md",
-        "2-组件化开发.md"
-      ]
-    }
-  ],
   "/frontend/weapp/": [
     {
       "text": "WEAPP",
