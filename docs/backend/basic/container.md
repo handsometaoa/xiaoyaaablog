@@ -40,7 +40,7 @@ sidebarDepth: 1
 可以，父类private方法子类不可以继承，子类可以拥有同名方法。
 
 
-## 1. java基本数据类型（Java中除了基本数据类型，皆是对象，也就是所谓的一切皆对象）：</summary>
+## 1. java基本数据类型（Java中除了基本数据类型，皆是对象，也就是所谓的一切皆对象）：
 
   整形：byte、int、short、long
   浮点型：float、double
