@@ -1,5 +1,7 @@
 ---
 description: 测试
+autoPrev: README
+autoNext: 全局异常处理
 sidebarDepth: 1
 ---
 
