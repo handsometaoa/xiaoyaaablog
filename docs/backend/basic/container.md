@@ -26,14 +26,14 @@ sidebarDepth: 1
 
 ## 3.加载顺序
 ## 先静后动，先父后子
-![](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20220422102844176-1002426708.png)
+![](.\assets\1704037-20220422102844176-1002426708.png)
 如果子类执行有参构造，父类会执行无参构造
 
 ## 静态代码块与静态成员变量的执行顺序（谁先谁执行）
-![](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230131111134377-1941829602.png)
+![](.\assets\1704037-20230131111134377-1941829602.png)
 
 ## 4.访问控制权限
-![](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230131140022816-1481247889.png)
+![](.\assets\1704037-20230131140022816-1481247889.png)
 
 
 ## 5.父类private方法，子类可以重新定义吗？
@@ -69,7 +69,7 @@ sidebarDepth: 1
 ## 3. ==和equals的区别
 基本数据类型：== 比较的是值，（**equals只能用在于对象，不能用于基本类型**）
 引用数据类型：== 比较的是地址，（未重写equals，比较的是地址；重写了equals，比较的是对象的属性）
-![image](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230221155303985-1975065122.png)
+![image](.\assets\1704037-20230221155303985-1975065122.png)
 
 
 ## 4. 重写equals为什么要重写hashcode
@@ -82,8 +82,8 @@ equals 相同，对象一定相同
 
 ## final
 final关键字，在Java中可以修饰类、方法、变量
-![image](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230221145632625-910170912.png)
-![image](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230221145725578-1388026118.png)
+![image](.\assets\1704037-20230221145632625-910170912.png)
+![image](.\assets\1704037-20230221145725578-1388026118.png)
 String 底层数组被修饰为final。
 
 
@@ -108,7 +108,7 @@ String 底层数组被修饰为final。
 
 
 ## 6.接口与抽象类
-![image](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230221154144001-1644440582.png)
+![image](.\assets\1704037-20230221154144001-1644440582.png)
 
 
 相同点：1. 接口与抽象类都不可以实例化
@@ -147,7 +147,7 @@ Exception是异常，又分为检查型异常和非检查型异常（RuntimeExce
 2.运行时异常：RuntimeException，运行时才检查，比如数组越界异常
 
 
-![](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20220409154354930-344159716.png)
+![](.\assets\1704037-20220409154354930-344159716.png)
 
 ## 8.try-catch-finally
   finally中内容不执行的情况：
@@ -223,7 +223,7 @@ public static String reverseBuilder(String str) {
 ```
 
 ## 15.static 不能修饰局部变量
-![image](D:\WangJiangtao\xiaoyaaablog\docs\backend\basic\assets\1704037-20230221162553654-1657945119.png)
+![image](.\assets\1704037-20230221162553654-1657945119.png)
 
 ## 16.String有length() 数组有length属性
 
