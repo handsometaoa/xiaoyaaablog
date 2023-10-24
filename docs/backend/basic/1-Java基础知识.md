@@ -1,7 +1,7 @@
 ---
 description: Java基础知识
 autoPrev: README
-autoNext: 2.全局异常处理
+autoNext: 2-全局异常处理
 sidebarDepth: 1
 ---
 

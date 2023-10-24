@@ -7,8 +7,9 @@ module.exports = {
       "sidebarDepth": 1,
       "children": [
         "README.md",
-        "container.md",
-        "全局异常处理.md"
+        "1-Java基础知识.md",
+        "2-全局异常处理.md",
+        "3-值传递与引用传递.md"
       ]
     }
   ],
