@@ -1,5 +1,5 @@
 ---
-description: 测试
+description: Java基础知识
 autoPrev: README
 autoNext: 全局异常处理
 sidebarDepth: 1
