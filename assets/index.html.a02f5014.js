@@ -1,0 +1,1 @@
+const t={key:"v-441bf8b6",path:"/os/ubuntu/",title:"Ubuntu",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u914D\u7F6E\u8BE6\u60C5",slug:"\u914D\u7F6E\u8BE6\u60C5",children:[]}],filePathRelative:"os/ubuntu/README.md",git:{updatedTime:1663406185e3,contributors:[{name:"handsometaoa",email:"1527153028@qq.com",commits:1}]}};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-057f077c",path:"/backend/postgres/",title:"postgres\u5165\u95E8",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u4ECB\u7ECD",slug:"\u4ECB\u7ECD",children:[]}],filePathRelative:"backend/postgres/README.md",git:{updatedTime:1663680984e3,contributors:[{name:"handsometaoa",email:"1527153028@qq.com",commits:1}]}};export{e as data};

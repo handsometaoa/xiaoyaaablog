@@ -1,0 +1,1 @@
+const t={key:"v-0e39ddf2",path:"/cornerstone/compositional/",title:"\u5F85\u5DE5\u4F5C",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"cornerstone/compositional/README.md",git:{updatedTime:1663524206e3,contributors:[{name:"handsometaoa",email:"1527153028@qq.com",commits:1}]}};export{t as data};
